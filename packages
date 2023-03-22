@@ -112,7 +112,7 @@ https://artifacthub.io/packages/helm/strimzi/strimzi-kafka-operator
 # https://github.com/GlueOps/service-helm-chart-apache-kafka-connect
 # https://github.com/GlueOps/service-helm-chart-apache-kafka-connect-connector-sink-confluent-jdbc
 # https://github.com/GlueOps/service-helm-chart-apache-kafka-connect-connector-source-debezium-mysql
-#https://github.com/GlueOps/platform-helm-chart-vault-prerequisites
+https://github.com/GlueOps/platform-helm-chart-vault-prerequisites
 # https://github.com/GlueOps/platform/
 https://artifacthub.io/packages/helm/hashicorp/vault
 # https://github.com/GlueOps/platform/
