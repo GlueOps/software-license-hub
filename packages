@@ -17,6 +17,8 @@ https://github.com/rlespinasse/github-slug-action
 https://github.com/docker/build-push-action
 # https://github.com/GlueOps/alertmanager
 # https://github.com/GlueOps/pull-request-bot
+https://github.com/golang/go/
+# https://github.com/GlueOps/codespaces
 https://hub.docker.com/_/golang
 # https://github.com/GlueOps/codespaces
 # https://github.com/GlueOps/alertmanager
