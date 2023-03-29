@@ -123,3 +123,5 @@ https://github.com/GlueOps/platform-helm-chart-vault-prerequisites
 # https://github.com/GlueOps/platform/
 https://artifacthub.io/packages/helm/hashicorp/vault
 # https://github.com/GlueOps/platform/
+https://artifacthub.io/packages/helm/dex/dex
+# https://github.com/GlueOps/platform/
