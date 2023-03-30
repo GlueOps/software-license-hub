@@ -22,6 +22,8 @@ https://github.com/docker/build-push-action
 # https://github.com/GlueOps/alertmanager
 # https://github.com/GlueOps/pull-request-bot
 # https://github.com/GlueOps/github-workflows
+https://github.com/databus23/helm-diff
+# https://github.com/GlueOps/codespaces
 https://github.com/golang/go/
 # https://github.com/GlueOps/codespaces
 https://hub.docker.com/_/golang
@@ -88,38 +90,40 @@ https://github.com/hashicorp/terraform-provider-time
 https://github.com/rickardgranberg/terraform-provider-vaultoperator
 # https://github.com/GlueOps/terraform-module-kubernetes-hashicorp-vault-initialization
 https://github.com/argoproj/argo-cd
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/admiral
 https://github.com/GlueOps/cert-manager-crds
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://github.com/GlueOps/platform-helm-chart-cert-manager
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://artifacthub.io/packages/helm/bitnami/external-dns
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://artifacthub.io/packages/helm/ingress-nginx/ingress-nginx
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://artifacthub.io/packages/helm/external-secrets-operator/external-secrets
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://github.com/GlueOps/platform-helm-chart-external-secrets
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://github.com/GlueOps/platform-helm-chart-prometheus-alerts
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://github.com/GlueOps/platform-helm-chart-grafana-dashboards
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://artifacthub.io/packages/helm/grafana/loki
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://artifacthub.io/packages/helm/grafana/promtail
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://github.com/GlueOps/pull-request-bot
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://artifacthub.io/packages/helm/strimzi/strimzi-kafka-operator
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 # https://github.com/GlueOps/service-helm-chart-apache-kafka
 # https://github.com/GlueOps/service-helm-chart-apache-kafka-connect
 # https://github.com/GlueOps/service-helm-chart-apache-kafka-connect-connector-sink-confluent-jdbc
 # https://github.com/GlueOps/service-helm-chart-apache-kafka-connect-connector-source-debezium-mysql
 https://github.com/GlueOps/platform-helm-chart-vault-prerequisites
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://artifacthub.io/packages/helm/hashicorp/vault
-# https://github.com/GlueOps/platform/
+# https://github.com/GlueOps/platform-helm-chart-platform
+https://artifacthub.io/packages/helm/dex/dex
+# https://github.com/GlueOps/platform-helm-chart-platform
