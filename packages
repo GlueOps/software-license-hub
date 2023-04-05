@@ -68,6 +68,7 @@ https://pypi.org/project/kubernetes/
 # https://github.com/GlueOps/pull-request-bot
 https://pypi.org/project/requests/
 # https://github.com/GlueOps/pull-request-bot
+# https://github.com/GlueOps/metacontroller-operator-loki-rule-group
 https://github.com/rebuy-de/aws-nuke/releases
 # https://github.com/GlueOps/scripts-teardown-aws-amazon-web-services
 https://github.com/hashicorp/terraform-provider-aws
@@ -127,3 +128,5 @@ https://artifacthub.io/packages/helm/hashicorp/vault
 # https://github.com/GlueOps/platform-helm-chart-platform
 https://artifacthub.io/packages/helm/dex/dex
 # https://github.com/GlueOps/platform-helm-chart-platform
+https://pypi.org/project/PyYAML/
+# https://github.com/GlueOps/metacontroller-operator-loki-rule-group
