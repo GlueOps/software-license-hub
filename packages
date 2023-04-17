@@ -132,3 +132,15 @@ https://artifacthub.io/packages/helm/dex/dex
 # https://github.com/GlueOps/platform-helm-chart-platform
 https://pypi.org/project/PyYAML/
 # https://github.com/GlueOps/metacontroller-operator-loki-rule-group
+https://github.com/awslabs/amazon-eks-ami/
+# https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster
+https://github.com/kubernetes-sigs/aws-ebs-csi-driver
+# https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster
+https://github.com/cloudposse/terraform-aws-eks-cluster
+# https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster
+https://github.com/cloudposse/terraform-aws-eks-node-group
+# https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster
+https://github.com/cloudposse/terraform-aws-dynamic-subnets
+# https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster
+https://github.com/cloudposse/terraform-aws-vpc/releases
+# https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster
