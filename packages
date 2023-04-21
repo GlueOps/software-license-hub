@@ -96,6 +96,8 @@ https://github.com/argoproj/argo-cd
 # https://github.com/GlueOps/docs-argocd
 https://github.com/GlueOps/cert-manager-crds
 # https://github.com/GlueOps/platform-helm-chart-platform
+https://github.com/GlueOps/platform-helm-chart-backup-hashicorp-vault
+# https://github.com/GlueOps/platform-helm-chart-platform
 https://github.com/GlueOps/platform-helm-chart-cert-manager
 # https://github.com/GlueOps/platform-helm-chart-platform
 https://artifacthub.io/packages/helm/bitnami/external-dns
