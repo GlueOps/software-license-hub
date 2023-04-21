@@ -93,7 +93,7 @@ https://github.com/hashicorp/terraform-provider-time
 https://github.com/rickardgranberg/terraform-provider-vaultoperator
 # https://github.com/GlueOps/terraform-module-kubernetes-hashicorp-vault-initialization
 https://github.com/argoproj/argo-cd
-# https://github.com/GlueOps/admiral
+# https://github.com/GlueOps/docs-argocd
 https://github.com/GlueOps/cert-manager-crds
 # https://github.com/GlueOps/platform-helm-chart-platform
 https://github.com/GlueOps/platform-helm-chart-cert-manager
