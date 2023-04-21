@@ -66,8 +66,6 @@ https://hub.docker.com/_/vault/tags
 # https://github.com/GlueOps/platform-helm-chart-backup-hashicorp-vault
 https://artifacthub.io/packages/helm/external-secrets-operator/external-secrets
 # https://github.com/GlueOps/platform-helm-chart-external-secrets/
-https://github.com/docker/metadata-action
-# https://github.com/GlueOps/pull-request-bot
 https://pypi.org/project/kubernetes/
 # https://github.com/GlueOps/pull-request-bot
 https://pypi.org/project/requests/
