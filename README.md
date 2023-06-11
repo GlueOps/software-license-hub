@@ -3,8 +3,7 @@ A place to track all the software glueops uses for it's platform offering.
 
 Note: This does not take into account our dependencies dependencies.
 
-
-## Requirements:
+## Requirements
 
 - docker
 - A clean github account that doesn't have any repos starred or notifications configured.
@@ -13,9 +12,12 @@ Note: This does not take into account our dependencies dependencies.
 
 ## Usage
 
-
 ```bash
 export GITHUB_PAT="<<<the-PAT-you-just-created-above>>"
 docker build . -t notifs
 docker run -it -e GITHUB_PAT=$GITHUB_PAT notifs
 ```
+
+## IMPORTANT
+
+This process will remove/unsubscribe from any repos that are not in the packages.json. So make sure you pass in the token for the github account you want to have this process run against.
