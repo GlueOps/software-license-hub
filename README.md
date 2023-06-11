@@ -1,3 +1,8 @@
+## IMPORTANT
+
+This process will remove/unsubscribe from any repos that are not in the packages.json. So make sure you pass in the token for the github account you want to have this process run against.
+
+
 # software-license-hub
 A place to track all the software glueops uses for it's platform offering.
 
