@@ -1,4 +1,4 @@
-name: GlueOps Action
+name: GlueOps - Build, Tag and Push Docker Image to GHCR
  
 on: [push]
 
