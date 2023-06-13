@@ -1,0 +1,393 @@
+[
+  {
+    "repo": "https://github.com/actions/setup-go",
+    "dependencies": [
+      "https://github.com/GlueOps/alertmanager",
+      "https://github.com/GlueOps/github-workflows"
+    ]
+  },
+  {
+    "repo": "https://github.com/actions/checkout",
+    "dependencies": [
+      "https://github.com/GlueOps/alertmanager",
+      "https://github.com/GlueOps/github-workflows",
+      "https://github.com/GlueOps/pull-request-bot",
+      "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
+    ]
+  },
+  {
+    "repo": "https://github.com/prometheus/alertmanager",
+    "dependencies": [
+      "https://github.com/GlueOps/alertmanager"
+    ]
+  },
+  {
+    "repo": "https://github.com/docker/setup-buildx-action",
+    "dependencies": [
+      "https://github.com/GlueOps/alertmanager",
+      "https://github.com/GlueOps/pull-request-bot",
+      "https://github.com/GlueOps/github-workflows",
+      "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
+    ]
+  },
+  {
+    "repo": "https://github.com/docker/login-action",
+    "dependencies": [
+      "https://github.com/GlueOps/alertmanager",
+      "https://github.com/GlueOps/pull-request-bot",
+      "https://github.com/GlueOps/github-workflows"
+    ]
+  },
+  {
+    "repo": "https://github.com/rlespinasse/github-slug-action",
+    "dependencies": [
+      "https://github.com/GlueOps/alertmanager",
+      "https://github.com/GlueOps/github-workflows"
+    ]
+  },
+  {
+    "repo": "https://github.com/docker/build-push-action",
+    "dependencies": [
+      "https://github.com/GlueOps/alertmanager",
+      "https://github.com/GlueOps/pull-request-bot",
+      "https://github.com/GlueOps/github-workflows"
+    ]
+  },
+  {
+    "repo": "https://github.com/databus23/helm-diff",
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
+  },
+  {
+    "repo": "https://github.com/golang/go",
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
+  },
+  {
+    "repo": "https://github.com/golang/go",
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces",
+      "https://github.com/GlueOps/alertmanager"
+    ]
+  },
+  {
+    "repo": "https://github.com/cert-manager/cert-manager",
+    "dependencies": [
+      "https://github.com/GlueOps/cert-manager-crds",
+      "https://github.com/GlueOps/platform-helm-chart-cert-manager"
+    ]
+  },
+  {
+    "repo": "https://github.com/go-task/task",
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
+  },
+  {
+    "repo": "https://github.com/kubernetes-sigs/kind",
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
+  },
+  {
+    "repo": "https://github.com/derailed/k9s",
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
+  },
+  {
+    "repo": "https://github.com/terraform-docs/terraform-docs",
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
+  },
+  {
+    "repo": "https://github.com/kubernetes/kubernetes",
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
+  },
+  {
+    "repo": "https://github.com/helm/helm",
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
+  },
+  {
+    "repo": "https://github.com/nodejs/node",
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
+  },
+  {
+    "repo": "https://github.com/python/cpython",
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces",
+      "https://github.com/GlueOps/pull-request-bot",
+      "https://github.com/GlueOps/metacontroller-operator-loki-rule-group"
+    ]
+  },
+  {
+    "repo": "https://github.com/external-secrets/external-secrets",
+    "dependencies": [
+      "https://github.com/GlueOps/external-secrets-crds"
+    ]
+  },
+  {
+    "repo": "https://github.com/envoy/install-helm-docs",
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
+  },
+  {
+    "repo": "https://github.com/mamezou-tech/setup-helmfile",
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
+  },
+  {
+    "repo": "https://github.com/aws-actions/configure-aws-credentials",
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
+  },
+  {
+    "repo": "https://github.com/aws/aws-cli",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-backup-hashicorp-vault"
+    ]
+  },
+  {
+    "repo": "https://github.com/kubernetes-client/python",
+    "dependencies": [
+      "https://github.com/GlueOps/pull-request-bot"
+    ]
+  },
+  {
+    "repo": "https://github.com/psf/requests",
+    "dependencies": [
+      "https://github.com/GlueOps/pull-request-bot",
+      "https://github.com/GlueOps/metacontroller-operator-loki-rule-group"
+    ]
+  },
+  {
+    "repo": "https://github.com/rebuy-de/aws-nuke",
+    "dependencies": [
+      "https://github.com/GlueOps/scripts-teardown-aws-amazon-web-services"
+    ]
+  },
+  {
+    "repo": "https://github.com/hashicorp/terraform-provider-aws",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-cloud-multy-prerequisites",
+      "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
+    ]
+  },
+  {
+    "repo": "https://github.com/hashicorp/terraform-provider-google",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-cloud-gcp-kubernetes-cluster"
+    ]
+  },
+  {
+    "repo": "https://github.com/cloudflare/terraform-provider-cloudflare",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-cloud-multy-prerequisites"
+    ]
+  },
+  {
+    "repo": "https://github.com/hashicorp/terraform-provider-random",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-cloud-multy-prerequisites"
+    ]
+  },
+  {
+    "repo": "https://github.com/opsgenie/terraform-provider-opsgenie",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-cloud-multy-prerequisites"
+    ]
+  },
+  {
+    "repo": "https://github.com/hashicorp/terraform-provider-vault",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-kubernetes-hashicorp-vault-configuration"
+    ]
+  },
+  {
+    "repo": "https://github.com/hashicorp/terraform-provider-local",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-kubernetes-hashicorp-vault-initialization"
+    ]
+  },
+  {
+    "repo": "https://github.com/hashicorp/terraform-provider-time",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-kubernetes-hashicorp-vault-initialization"
+    ]
+  },
+  {
+    "repo": "https://github.com/rickardgranberg/terraform-provider-vaultoperator",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-kubernetes-hashicorp-vault-initialization"
+    ]
+  },
+  {
+    "repo": "https://github.com/argoproj/argo-cd",
+    "dependencies": [
+      "https://github.com/GlueOps/docs-argocd"
+    ]
+  },
+  {
+    "repo": "https://github.com/GlueOps/cert-manager-crds",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
+  },
+  {
+    "repo": "https://github.com/GlueOps/platform-helm-chart-backup-hashicorp-vault",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
+  },
+  {
+    "repo": "https://github.com/GlueOps/platform-helm-chart-cert-manager",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
+  },
+  {
+    "repo": "https://github.com/kubernetes-sigs/external-dns",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
+  },
+  {
+    "repo": "https://github.com/kubernetes/ingress-nginx",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
+  },
+  {
+    "repo": "https://github.com/external-secrets/external-secrets",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform",
+      "https://github.com/GlueOps/platform-helm-chart-external-secrets"
+    ]
+  },
+  {
+    "repo": "https://github.com/GlueOps/platform-helm-chart-external-secrets",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
+  },
+  {
+    "repo": "https://github.com/GlueOps/platform-helm-chart-prometheus-alerts",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
+  },
+  {
+    "repo": "https://github.com/GlueOps/platform-helm-chart-grafana-dashboards",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
+  },
+  {
+    "repo": "https://github.com/prometheus-community/helm-charts",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
+  },
+  {
+    "repo": "https://github.com/grafana/loki",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
+  },
+  {
+    "repo": "https://github.com/GlueOps/pull-request-bot",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
+  },
+  {
+    "repo": "https://github.com/strimzi/strimzi-kafka-operator",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform",
+      "https://github.com/GlueOps/service-helm-chart-apache-kafka",
+      "https://github.com/GlueOps/service-helm-chart-apache-kafka-connect",
+      "https://github.com/GlueOps/service-helm-chart-apache-kafka-connect-connector-sink-confluent-jdbc",
+      "https://github.com/GlueOps/service-helm-chart-apache-kafka-connect-connector-source-debezium-mysql"
+    ]
+  },
+  {
+    "repo": "https://github.com/GlueOps/platform-helm-chart-vault-prerequisites",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
+  },
+  {
+    "repo": "https://github.com/hashicorp/vault",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform",
+      "https://github.com/hashicorp/vault-helm"
+    ]
+  },
+  {
+    "repo": "https://github.com/dexidp/dex",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform",
+      "https://github.com/dexidp/helm-charts"
+    ]
+  },
+  {
+    "repo": "https://github.com/yaml/pyyaml",
+    "dependencies": [
+      "https://github.com/GlueOps/metacontroller-operator-loki-rule-group"
+    ]
+  },
+  {
+    "repo": "https://github.com/awslabs/amazon-eks-ami",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
+    ]
+  },
+  {
+    "repo": "https://github.com/kubernetes-sigs/aws-ebs-csi-driver",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
+    ]
+  },
+  {
+    "repo": "https://github.com/cloudposse/terraform-aws-eks-cluster",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
+    ]
+  },
+  {
+    "repo": "https://github.com/cloudposse/terraform-aws-eks-node-group",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
+    ]
+  },
+  {
+    "repo": "https://github.com/cloudposse/terraform-aws-dynamic-subnets",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
+    ]
+  },
+  {
+    "repo": "https://github.com/cloudposse/terraform-aws-vpc",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
+    ]
+  },
+  {
+    "repo": "https://github.com/GlueOps/codespaces",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
+    ]
+  }
+]
