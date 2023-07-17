@@ -393,7 +393,7 @@
   {
     "repo": "https://github.com/TomWright/dasel",
     "dependencies": [
-      "tags-ci[todo]"
+      "https://github.com/GlueOps/github-workflows"
     ]
   }
 ]
