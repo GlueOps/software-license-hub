@@ -395,5 +395,11 @@
     "dependencies": [
       "https://github.com/GlueOps/github-workflows"
     ]
+  },
+  {
+    "repo": "https://github.com/peter-evans/create-pull-request",
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
   }
 ]
