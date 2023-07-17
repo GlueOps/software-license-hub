@@ -401,5 +401,11 @@
     "dependencies": [
       "https://github.com/GlueOps/github-workflows"
     ]
+  },
+  {
+    "repo": "https://github.com/actions/runner-images/tags",
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
   }
 ]
