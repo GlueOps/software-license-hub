@@ -389,5 +389,23 @@
     "dependencies": [
       "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
     ]
+  },
+  {
+    "repo": "https://github.com/TomWright/dasel",
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
+  },
+  {
+    "repo": "https://github.com/peter-evans/create-pull-request",
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
+  },
+  {
+    "repo": "https://github.com/actions/runner-images/tags",
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
   }
 ]
