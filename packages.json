@@ -391,7 +391,7 @@
     ]
   },
   {
-    "repo": "https://github.com/TomWright/dasel",
+    "repo": "https://github.com/mikefarah/yq",
     "dependencies": [
       "https://github.com/GlueOps/github-workflows"
     ]
