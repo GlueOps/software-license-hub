@@ -277,6 +277,12 @@
     ]
   },
   {
+    "repo": "https://github.com/kedacore/charts",
+    "dependencies": [
+      "https://github.com/kedacore/charts"
+    ]
+  },
+  {
     "repo": "https://github.com/GlueOps/platform-helm-chart-external-secrets",
     "dependencies": [
       "https://github.com/GlueOps/platform-helm-chart-platform"
