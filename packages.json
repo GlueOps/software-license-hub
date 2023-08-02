@@ -156,7 +156,7 @@
   {
     "repo": "https://github.com/aws/aws-cli",
     "dependencies": [
-      "https://github.com/GlueOps/platform-helm-chart-backup-hashicorp-vault"
+      "https://github.com/GlueOps/backup-tools"
     ]
   },
   {
@@ -246,7 +246,7 @@
     ]
   },
   {
-    "repo": "https://github.com/GlueOps/platform-helm-chart-backup-hashicorp-vault",
+    "repo": "https://github.com/GlueOps/backup-tools",
     "dependencies": [
       "https://github.com/GlueOps/platform-helm-chart-platform"
     ]
@@ -403,9 +403,21 @@
     ]
   },
   {
-    "repo": "https://github.com/actions/runner-images/tags",
+    "repo": "https://github.com/actions/runner-images",
     "dependencies": [
       "https://github.com/GlueOps/github-workflows"
+    ]
+  },
+  {
+    "repo": "https://github.com/hashicorp/terraform",
+    "dependencies": [
+      "https://github.com/glueops/codespaces"
+    ]
+  },
+  {
+    "repo": "https://github.com/charmbracelet/gum",
+    "dependencies": [
+      "https://github.com/glueops/codespaces"
     ]
   }
 ]
