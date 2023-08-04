@@ -425,5 +425,11 @@
     "dependencies": [
       "https://github.com/glueops/codespaces"
     ]
-  }
+  },
+  {
+    "repo": "https://github.com/projectcalico/calico",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
+    ]
+  },
 ]
