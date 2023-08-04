@@ -431,5 +431,5 @@
     "dependencies": [
       "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
     ]
-  },
+  }
 ]
