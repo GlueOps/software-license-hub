@@ -15,8 +15,6 @@ for i,v in enumerate(data):
     sorted_keys = sorted(v.keys(), reverse=True)
     ordered_deps.append({key: v[key] for key in sorted_keys})
     
-from pprint import pprint
-
 v_count = 0
 a_count = 0
 missing = 0
