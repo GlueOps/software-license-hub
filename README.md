@@ -19,10 +19,11 @@ Note: This does not take into account our dependencies dependencies.
 
 ```bash
 export GITHUB_PAT="<<<the-PAT-you-just-created-above>>"
+export REPO_OWNER="usually your githubid however, it likely isn't the githubID you are using for these notifications."
 docker build . -t notifs
-docker run -it -e GITHUB_PAT=$GITHUB_PAT notifs
+docker run -it -e GITHUB_PAT=$GITHUB_PAT -e REPO_OWNER=$REPO_OWNER notifs
 ```
 
 ## IMPORTANT
 
-This process will remove/unsubscribe from any repos that are not in the packages.json. So make sure you pass in the token for the github account you want to have this process run against.
+This process will remove/unsubscribe from any repos that are not assigned to you in the packages.json. So make sure you pass in the token for the github account you want to have this process run against.
