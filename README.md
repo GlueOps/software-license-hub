@@ -19,7 +19,7 @@ Note: This does not take into account our dependencies dependencies.
 
 ```bash
 export GITHUB_PAT="<<<the-PAT-you-just-created-above>>"
-export REPO_OWNER="usually your githubid however, it likely isn't the githubID you are using for these notifications."
+export REPO_OWNER="the github id that will be committing update changes in dependent repositories"
 docker build . -t notifs
 docker run -it -e GITHUB_PAT=$GITHUB_PAT -e REPO_OWNER=$REPO_OWNER notifs
 ```
