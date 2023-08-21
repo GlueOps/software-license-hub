@@ -4,6 +4,7 @@ import os
 
 # Your GitHub personal access token
 TOKEN = os.environ['GITHUB_PAT']
+REPO_OWNER = os.environ['REPO_OWNER']
 with open('packages.json', 'r') as f:
     # Load the JSON data from the file
     data = json.load(f)
@@ -11,9 +12,8 @@ with open('packages.json', 'r') as f:
 # Extract unique repos
 repos = set()
 for item in data:
-    repos.add(item['repo'])
-    for dep in item['dependencies']:
-        repos.add(dep)
+    if str(item['owner']).lower().strip() == str(REPO_OWNER).lower().strip():
+        repos.add(item['repo'])
         
 
 # Set up headers for requests
