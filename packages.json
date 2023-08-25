@@ -66,7 +66,11 @@
   {
     "repo": "https://github.com/golang/go",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/codespaces"]
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces",
+      "https://github.com/GlueOps/alertmanager",
+      "https://github.com/GlueOps/github-workflows"
+    ]
   },
   {
     "repo": "https://github.com/golang/go",
