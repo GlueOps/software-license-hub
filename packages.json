@@ -20,7 +20,10 @@
   {
     "repo": "https://github.com/prometheus/alertmanager",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/alertmanager"]
+    "dependencies": [
+      "https://github.com/GlueOps/alertmanager",
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
   },
   {
     "repo": "https://github.com/docker/setup-buildx-action",
