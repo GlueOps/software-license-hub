@@ -310,7 +310,10 @@
   {
     "repo": "https://github.com/grafana/loki",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/platform-helm-chart-platform"]
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform",
+      "https://github.com/GlueOps/backup-tools"
+    ]
   },
   {
     "repo": "https://github.com/GlueOps/pull-request-bot",
