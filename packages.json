@@ -335,7 +335,8 @@
     "owner": "fernandoataoldotcom",
     "dependencies": [
       "https://github.com/GlueOps/platform-helm-chart-platform",
-      "https://github.com/hashicorp/vault-helm"
+      "https://github.com/hashicorp/vault-helm",
+      "https://github.com/GlueOps/backup-tools"
     ]
   },
   {
