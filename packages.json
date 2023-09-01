@@ -132,7 +132,13 @@
     "dependencies": [
       "https://github.com/GlueOps/codespaces",
       "https://github.com/GlueOps/pull-request-bot",
-      "https://github.com/GlueOps/metacontroller-operator-loki-rule-group"
+      "https://github.com/GlueOps/metacontroller-operator-loki-rule-group",
+      "https://github.com/GlueOps/web-app-simulate-workload",
+      "https://github.com/GlueOps/qr-code-generator",
+      "https://github.com/GlueOps/metacontroller-operator-loki-rule-group",
+      "https://github.com/GlueOps/vault-init-controller",
+      "https://github.com/GlueOps/terraform-cloud-backup",
+      "https://github.com/GlueOps/software-license-hub"
     ]
   },
   {
