@@ -523,5 +523,19 @@
     "dependencies": [
       "https://github.com/GlueOps/qr-code-generator"
     ]
+  },
+    {
+    "repo": "https://github.com/metacontroller/metacontroller",
+    "owner": "fernandoataoldotcom",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-metacontroller"
+    ]
+  },
+  {
+    "repo": "https://github.com/pomerium/ingress-controller",
+    "owner": "venkatamutyala",
+    "dependencies": [
+      "https://github.com/GlueOps/platform-kustomize-pomerium"
+    ]
   }
 ]
