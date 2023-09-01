@@ -132,7 +132,12 @@
     "dependencies": [
       "https://github.com/GlueOps/codespaces",
       "https://github.com/GlueOps/pull-request-bot",
-      "https://github.com/GlueOps/metacontroller-operator-loki-rule-group"
+      "https://github.com/GlueOps/web-app-simulate-workload",
+      "https://github.com/GlueOps/qr-code-generator",
+      "https://github.com/GlueOps/metacontroller-operator-loki-rule-group",
+      "https://github.com/GlueOps/vault-init-controller",
+      "https://github.com/GlueOps/terraform-cloud-backup",
+      "https://github.com/GlueOps/software-license-hub"
     ]
   },
   {
@@ -163,14 +168,18 @@
   {
     "repo": "https://github.com/kubernetes-client/python",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/pull-request-bot"]
+    "dependencies": [
+      "https://github.com/GlueOps/pull-request-bot",
+      "https://github.com/GlueOps/vault-init-controller"
+    ]
   },
   {
     "repo": "https://github.com/psf/requests",
     "owner": "venkatamutyala",
     "dependencies": [
       "https://github.com/GlueOps/pull-request-bot",
-      "https://github.com/GlueOps/metacontroller-operator-loki-rule-group"
+      "https://github.com/GlueOps/metacontroller-operator-loki-rule-group",
+      "https://github.com/GlueOps/terraform-cloud-backup",
     ]
   },
   {
@@ -439,6 +448,80 @@
     "owner": "venkatamutyala",
     "dependencies": [
       "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
+    ]
+  },
+  {
+    "repo": "https://github.com/tiangolo/fastapi",
+    "owner": "fernandoataoldotcom",
+    "dependencies": [
+      "https://github.com/GlueOps/web-app-simulate-workload",
+      "https://github.com/GlueOps/qr-code-generator"
+    ]
+  },
+  {
+    "repo": "https://github.com/boto/boto3",
+    "owner": "venkatamutyala",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-cloud-backup",
+      "https://github.com/GlueOps/vault-init-controller"
+    ]
+  },
+  {
+    "repo": "https://github.com/theskumar/python-dotenv",
+    "owner": "fernandoataoldotcom",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-cloud-backup"
+    ]
+  },
+  {
+    "repo": "https://github.com/RaRe-Technologies/smart_open",
+    "owner": "venkatamutyala",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-cloud-backup"
+    ]
+  },
+  {
+    "repo": "https://github.com/encode/uvicorn",
+    "owner": "fernandoataoldotcom",
+    "dependencies": [
+      "https://github.com/GlueOps/web-app-simulate-workload",
+      "https://github.com/GlueOps/qr-code-generator"
+    ]
+  },
+  {
+    "repo": "https://github.com/andrew-d/python-multipart",
+    "owner": "venkatamutyala",
+    "dependencies": [
+      "https://github.com/GlueOps/web-app-simulate-workload"
+    ]
+  },
+  {
+    "repo": "https://github.com/benoitc/gunicorn",
+    "owner": "fernandoataoldotcom",
+    "dependencies": [
+      "https://github.com/GlueOps/web-app-simulate-workload",
+      "https://github.com/GlueOps/qr-code-generator"
+    ]
+  },
+  {
+    "repo": "https://github.com/GehirnInc/python-jwt",
+    "owner": "venkatamutyala",
+    "dependencies": [
+      "https://github.com/GlueOps/pull-request-bot"
+    ]
+  },
+  {
+    "repo": "https://github.com/lincolnloop/python-qrcode",
+    "owner": "fernandoataoldotcom",
+    "dependencies": [
+      "https://github.com/GlueOps/qr-code-generator"
+    ]
+  },
+  {
+    "repo": "https://github.com/python-pillow/Pillow",
+    "owner": "venkatamutyala",
+    "dependencies": [
+      "https://github.com/GlueOps/qr-code-generator"
     ]
   }
 ]
