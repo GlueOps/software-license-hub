@@ -64,7 +64,9 @@
   {
     "repo": "https://github.com/databus23/helm-diff",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/codespaces"]
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
   },
   {
     "repo": "https://github.com/golang/go",
@@ -94,37 +96,51 @@
   {
     "repo": "https://github.com/go-task/task",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/codespaces"]
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
   },
   {
     "repo": "https://github.com/kubernetes-sigs/kind",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/codespaces"]
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
   },
   {
     "repo": "https://github.com/derailed/k9s",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/codespaces"]
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
   },
   {
     "repo": "https://github.com/terraform-docs/terraform-docs",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/codespaces"]
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
   },
   {
     "repo": "https://github.com/kubernetes/kubernetes",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/codespaces"]
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
   },
   {
     "repo": "https://github.com/helm/helm",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/codespaces"]
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
   },
   {
     "repo": "https://github.com/nodejs/node",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/codespaces"]
+    "dependencies": [
+      "https://github.com/GlueOps/codespaces"
+    ]
   },
   {
     "repo": "https://github.com/python/cpython",
@@ -143,27 +159,37 @@
   {
     "repo": "https://github.com/external-secrets/external-secrets",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/external-secrets-crds"]
+    "dependencies": [
+      "https://github.com/GlueOps/external-secrets-crds"
+    ]
   },
   {
     "repo": "https://github.com/envoy/install-helm-docs",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/github-workflows"]
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
   },
   {
     "repo": "https://github.com/mamezou-tech/setup-helmfile",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/github-workflows"]
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
   },
   {
     "repo": "https://github.com/aws-actions/configure-aws-credentials",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/github-workflows"]
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
   },
   {
     "repo": "https://github.com/aws/aws-cli",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/backup-tools"]
+    "dependencies": [
+      "https://github.com/GlueOps/backup-tools"
+    ]
   },
   {
     "repo": "https://github.com/kubernetes-client/python",
@@ -179,7 +205,7 @@
     "dependencies": [
       "https://github.com/GlueOps/pull-request-bot",
       "https://github.com/GlueOps/metacontroller-operator-loki-rule-group",
-      "https://github.com/GlueOps/terraform-cloud-backup",
+      "https://github.com/GlueOps/terraform-cloud-backup"
     ]
   },
   {
@@ -256,32 +282,44 @@
   {
     "repo": "https://github.com/argoproj/argo-cd",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/docs-argocd"]
+    "dependencies": [
+      "https://github.com/GlueOps/docs-argocd"
+    ]
   },
   {
     "repo": "https://github.com/GlueOps/cert-manager-crds",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/platform-helm-chart-platform"]
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
   },
   {
     "repo": "https://github.com/GlueOps/backup-tools",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/platform-helm-chart-platform"]
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
   },
   {
     "repo": "https://github.com/GlueOps/platform-helm-chart-cert-manager",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/platform-helm-chart-platform"]
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
   },
   {
     "repo": "https://github.com/kubernetes-sigs/external-dns",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/platform-helm-chart-platform"]
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
   },
   {
     "repo": "https://github.com/kubernetes/ingress-nginx",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/platform-helm-chart-platform"]
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
   },
   {
     "repo": "https://github.com/external-secrets/external-secrets",
@@ -294,27 +332,37 @@
   {
     "repo": "https://github.com/kedacore/charts",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/kedacore/charts"]
+    "dependencies": [
+      "https://github.com/kedacore/charts"
+    ]
   },
   {
     "repo": "https://github.com/GlueOps/platform-helm-chart-external-secrets",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/platform-helm-chart-platform"]
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
   },
   {
     "repo": "https://github.com/GlueOps/platform-helm-chart-prometheus-alerts",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/platform-helm-chart-platform"]
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
   },
   {
     "repo": "https://github.com/GlueOps/platform-helm-chart-grafana-dashboards",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/platform-helm-chart-platform"]
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
   },
   {
     "repo": "https://github.com/prometheus-community/helm-charts",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/platform-helm-chart-platform"]
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
   },
   {
     "repo": "https://github.com/grafana/loki",
@@ -327,7 +375,9 @@
   {
     "repo": "https://github.com/GlueOps/pull-request-bot",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/platform-helm-chart-platform"]
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
   },
   {
     "repo": "https://github.com/strimzi/strimzi-kafka-operator",
@@ -343,7 +393,9 @@
   {
     "repo": "https://github.com/GlueOps/platform-helm-chart-vault-prerequisites",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/platform-helm-chart-platform"]
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
   },
   {
     "repo": "https://github.com/hashicorp/vault",
@@ -421,27 +473,37 @@
   {
     "repo": "https://github.com/mikefarah/yq",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/github-workflows"]
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
   },
   {
     "repo": "https://github.com/peter-evans/create-pull-request",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/GlueOps/github-workflows"]
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
   },
   {
     "repo": "https://github.com/actions/runner-images",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/GlueOps/github-workflows"]
+    "dependencies": [
+      "https://github.com/GlueOps/github-workflows"
+    ]
   },
   {
     "repo": "https://github.com/hashicorp/terraform",
     "owner": "venkatamutyala",
-    "dependencies": ["https://github.com/glueops/codespaces"]
+    "dependencies": [
+      "https://github.com/glueops/codespaces"
+    ]
   },
   {
     "repo": "https://github.com/charmbracelet/gum",
     "owner": "fernandoataoldotcom",
-    "dependencies": ["https://github.com/glueops/codespaces"]
+    "dependencies": [
+      "https://github.com/glueops/codespaces"
+    ]
   },
   {
     "repo": "https://github.com/projectcalico/calico",
@@ -524,7 +586,7 @@
       "https://github.com/GlueOps/qr-code-generator"
     ]
   },
-    {
+  {
     "repo": "https://github.com/metacontroller/metacontroller",
     "owner": "fernandoataoldotcom",
     "dependencies": [
