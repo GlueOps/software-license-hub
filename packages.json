@@ -40,7 +40,6 @@
     "owner": "fernandoataoldotcom",
     "dependencies": [
       "https://github.com/GlueOps/alertmanager",
-      "https://github.com/GlueOps/pull-request-bot",
       "https://github.com/GlueOps/github-workflows"
     ]
   },
