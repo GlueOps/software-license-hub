@@ -281,7 +281,8 @@
     "repo": "https://github.com/argoproj/argo-cd",
     "owner": "fernandoataoldotcom",
     "dependencies": [
-      "https://github.com/GlueOps/docs-argocd"
+      "https://github.com/GlueOps/docs-argocd",
+      "https://github.com/GlueOps/codespaces"
     ]
   },
   {
