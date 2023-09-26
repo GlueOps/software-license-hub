@@ -155,13 +155,6 @@
     ]
   },
   {
-    "repo": "https://github.com/external-secrets/external-secrets",
-    "owner": "venkatamutyala",
-    "dependencies": [
-      "https://github.com/GlueOps/external-secrets-crds"
-    ]
-  },
-  {
     "repo": "https://github.com/envoy/install-helm-docs",
     "owner": "fernandoataoldotcom",
     "dependencies": [
@@ -325,7 +318,8 @@
     "owner": "fernandoataoldotcom",
     "dependencies": [
       "https://github.com/GlueOps/platform-helm-chart-platform",
-      "https://github.com/GlueOps/platform-helm-chart-external-secrets"
+      "https://github.com/GlueOps/platform-helm-chart-external-secrets",
+      "https://github.com/GlueOps/external-secrets-crds"
     ]
   },
   {
