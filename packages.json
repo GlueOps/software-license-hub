@@ -136,6 +136,7 @@
   {
     "repo": "https://github.com/python/cpython",
     "owner": "fernandoataoldotcom",
+    "notes": ["manual-verification"],
     "dependencies": [
       "https://github.com/GlueOps/codespaces",
       "https://github.com/GlueOps/pull-request-bot",
@@ -178,6 +179,7 @@
   {
     "repo": "https://github.com/kubernetes-client/python",
     "owner": "fernandoataoldotcom",
+    "notes": ["tied to kubernetes version"],
     "dependencies": [
       "https://github.com/GlueOps/pull-request-bot",
       "https://github.com/GlueOps/vault-init-controller"
