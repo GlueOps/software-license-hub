@@ -69,6 +69,7 @@
   {
     "repo": "https://github.com/golang/go",
     "owner": "fernandoataoldotcom",
+    "notes": ["manual-verification", "tie alertmanager version to the version used in alertmanager"],
     "dependencies": [
       "https://github.com/GlueOps/codespaces",
       "https://github.com/GlueOps/alertmanager",
