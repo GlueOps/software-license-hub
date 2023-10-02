@@ -69,18 +69,11 @@
   {
     "repo": "https://github.com/golang/go",
     "owner": "fernandoataoldotcom",
+    "notes": ["manual-verification", "tie alertmanager version to the version used in alertmanager"],
     "dependencies": [
       "https://github.com/GlueOps/codespaces",
       "https://github.com/GlueOps/alertmanager",
       "https://github.com/GlueOps/github-workflows"
-    ]
-  },
-  {
-    "repo": "https://github.com/golang/go",
-    "owner": "venkatamutyala",
-    "dependencies": [
-      "https://github.com/GlueOps/codespaces",
-      "https://github.com/GlueOps/alertmanager"
     ]
   },
   {
@@ -143,6 +136,7 @@
   {
     "repo": "https://github.com/python/cpython",
     "owner": "fernandoataoldotcom",
+    "notes": ["manual-verification"],
     "dependencies": [
       "https://github.com/GlueOps/codespaces",
       "https://github.com/GlueOps/pull-request-bot",
@@ -185,6 +179,7 @@
   {
     "repo": "https://github.com/kubernetes-client/python",
     "owner": "fernandoataoldotcom",
+    "notes": ["tied to kubernetes version"],
     "dependencies": [
       "https://github.com/GlueOps/pull-request-bot",
       "https://github.com/GlueOps/vault-init-controller"
