@@ -77,14 +77,6 @@
     ]
   },
   {
-    "repo": "https://github.com/golang/go",
-    "owner": "venkatamutyala",
-    "dependencies": [
-      "https://github.com/GlueOps/codespaces",
-      "https://github.com/GlueOps/alertmanager"
-    ]
-  },
-  {
     "repo": "https://github.com/cert-manager/cert-manager",
     "owner": "fernandoataoldotcom",
     "dependencies": [
