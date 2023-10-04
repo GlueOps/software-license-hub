@@ -454,8 +454,10 @@
   {
     "repo": "https://github.com/GlueOps/codespaces",
     "owner": "venkatamutyala",
+    "notes": ["on new version, create prebuild in GlueOps/glueops"],
     "dependencies": [
-      "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster"
+      "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster",
+      "https://github.com/GlueOps/terraform-module-cloud-multy-prerequisites"
     ]
   },
   {
