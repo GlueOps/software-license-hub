@@ -17,12 +17,24 @@ Note: This does not take into account our dependencies dependencies.
 
 ## Usage
 
+Load the `update_subscriptions` function to your environment.
+
 ```bash
-export GITHUB_PAT="<<<the-PAT-you-just-created-above>>"
-export REPO_OWNER="the github id that will be committing update changes in dependent repositories"
-docker build . -t notifs
-docker run -it -e GITHUB_PAT=$GITHUB_PAT -e REPO_OWNER=$REPO_OWNER notifs
+source update_subscriptions.sh
 ```
+
+Run the command to update your subscriptions, passing in the following arguments:
+
+`-o` : The GitHub id that will be committing update changes in dependent repositories.
+</br>
+`-t` : The PAT just created above.
+
+For example
+
+```bash
+update-subsctiptions -o "my-gh-subsctiptions-user" -t "ghp_XXXXXXXXXXXXXXXX"
+```
+
 
 ## IMPORTANT
 
