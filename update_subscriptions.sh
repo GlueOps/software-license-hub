@@ -44,6 +44,6 @@ update-subscriptions () {
 
     set -e
     docker build . -t notifs
-    docker run -it -e GITHUB_PAT=$gh_pat -e REPO_OWNER=$owner notifs
+    docker run -it --rm -e GITHUB_PAT=$gh_pat -e REPO_OWNER=$owner notifs
 }
 
