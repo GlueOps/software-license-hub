@@ -210,6 +210,14 @@
     ]
   },
   {
+    "repo": "https://github.com/integrations/terraform-provider-github",
+    "owner": "fernandoataoldotcom",
+    "notes": ["managed in https://github.com/GlueOps/terraform-module-provider-versions"],
+    "dependencies": [
+      "https://github.com/internal-GlueOps/github-enterprise-glueops"
+    ]
+  },
+  {
     "repo": "https://github.com/hashicorp/terraform-provider-google",
     "owner": "fernandoataoldotcom",
     "dependencies": [
