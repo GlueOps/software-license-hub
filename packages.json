@@ -364,6 +364,7 @@
   {
     "repo": "https://github.com/grafana/loki",
     "owner": "fernandoataoldotcom",
+    "notes": ["both loki and promtail applications must be updated"],
     "dependencies": [
       "https://github.com/GlueOps/platform-helm-chart-platform",
       "https://github.com/GlueOps/backup-tools"
