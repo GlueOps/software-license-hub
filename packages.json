@@ -174,7 +174,8 @@
     "repo": "https://github.com/aws/aws-cli",
     "owner": "venkatamutyala",
     "dependencies": [
-      "https://github.com/GlueOps/backup-tools"
+      "https://github.com/GlueOps/backup-tools",
+      "https://github.com/GlueOps/github-actions-build-push-containers"
     ]
   },
   {
