@@ -146,7 +146,9 @@
       "https://github.com/GlueOps/metacontroller-operator-loki-rule-group",
       "https://github.com/GlueOps/vault-init-controller",
       "https://github.com/GlueOps/terraform-cloud-backup",
-      "https://github.com/GlueOps/software-license-hub"
+      "https://github.com/GlueOps/software-license-hub",
+      "https://github.com/GlueOps/metacontroller-operator-waf",
+      "https://github.com/GlueOps/metacontroller-operator-waf-web-acl"
     ]
   },
   {
