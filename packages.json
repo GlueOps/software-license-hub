@@ -282,7 +282,16 @@
     "owner": "fernandoataoldotcom",
     "dependencies": [
       "https://github.com/GlueOps/docs-argocd",
-      "https://github.com/GlueOps/codespaces"
+      "https://github.com/GlueOps/codespaces",
+      "https://github.com/GlueOps/terraform-module-cloud-multy-prerequisites"
+    ]
+  },
+  {
+    "repo": "https://github.com/argoproj/argo-helm",
+    "owner": "fernandoataoldotcom",
+    "dependencies": [
+      "https://github.com/GlueOps/docs-argocd",
+      "https://github.com/GlueOps/terraform-module-cloud-multy-prerequisites"
     ]
   },
   {
