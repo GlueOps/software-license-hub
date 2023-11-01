@@ -1,9 +1,5 @@
-## IMPORTANT
-
-This process will remove/unsubscribe from any repos that are not in the packages.json. So make sure you pass in the token for the github account you want to have this process run against.
-
-
 # software-license-hub
+
 A place to track all the software glueops uses for it's platform offering.
 
 Note: This does not take into account our dependencies dependencies.
@@ -32,9 +28,8 @@ Run the command to update your subscriptions, passing in the following arguments
 For example
 
 ```bash
-update-subsctiptions -o "my-gh-subsctiptions-user" -t "ghp_XXXXXXXXXXXXXXXX"
+update-subsctiptions -o "my-gh-user-committing-updates" -t "ghp_XXXXXXXXXXXXXXXX"
 ```
-
 
 ## IMPORTANT
 
