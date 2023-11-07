@@ -543,13 +543,6 @@
     ]
   },
   {
-    "repo": "https://github.com/theskumar/python-dotenv",
-    "owner": "fernandoataoldotcom",
-    "dependencies": [
-      "https://github.com/GlueOps/terraform-cloud-backup"
-    ]
-  },
-  {
     "repo": "https://github.com/RaRe-Technologies/smart_open",
     "owner": "venkatamutyala",
     "dependencies": [
