@@ -543,6 +543,17 @@
     ]
   },
   {
+    "repo": "https://github.com/GlueOps/python-glueops-helpers-library",
+    "owner": "fernandoataoldotcom",
+    "dependencies": [
+      "https://github.com/GlueOps/terraform-cloud-backup",
+      "https://github.com/GlueOps/pull-request-bot",
+      "https://github.com/GlueOps/vault-init-controller",
+      "https://github.com/GlueOps/metacontroller-operator-waf-web-acl",
+      "https://github.com/GlueOps/metacontroller-operator-waf"
+    ]
+  },
+  {
     "repo": "https://github.com/RaRe-Technologies/smart_open",
     "owner": "venkatamutyala",
     "dependencies": [
