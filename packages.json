@@ -15,7 +15,8 @@
       "https://github.com/GlueOps/github-workflows",
       "https://github.com/GlueOps/pull-request-bot",
       "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster",
-      "https://github.com/GlueOps/github-actions-build-push-containers"
+      "https://github.com/GlueOps/github-actions-build-push-containers",
+      "https://github.com/GlueOps/github-actions-cleanup-redundant-cd-prs"
     ]
   },
   {
@@ -178,6 +179,13 @@
     "dependencies": [
       "https://github.com/GlueOps/backup-tools",
       "https://github.com/GlueOps/github-actions-build-push-containers"
+    ]
+  },
+  {
+    "repo": "https://github.com/cli/cli",
+    "owner": "fernandoataoldotcom",
+    "dependencies": [
+      "https://github.com/GlueOps/github-actions-cleanup-redundant-cd-prs"
     ]
   },
   {
@@ -486,6 +494,13 @@
     "owner": "fernandoataoldotcom",
     "dependencies": [
       "https://github.com/GlueOps/github-workflows"
+    ]
+  },
+  {
+    "repo": "https://github.com/jqlang/jq",
+    "owner": "fernandoataoldotcom",
+    "dependencies": [
+      "https://github.com/GlueOps/github-actions-cleanup-redundant-cd-prs"
     ]
   },
   {
