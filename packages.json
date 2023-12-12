@@ -622,6 +622,7 @@
   {
     "repo": "https://github.com/metacontroller/metacontroller",
     "owner": "fernandoataoldotcom",
+    "notes": ["must publish chart, in https://github.com/GlueOps/platform-helm-chart-metacontroller"],
     "dependencies": [
       "https://github.com/GlueOps/platform-helm-chart-metacontroller"
     ]
