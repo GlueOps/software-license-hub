@@ -560,7 +560,7 @@
     "repo": "https://github.com/boto/boto3",
     "owner": "venkatamutyala",
     "dependencies": [
-      "https://github.com/GlueOps/terraform-cloud-backup",
+      "https://github.com/GlueOps/migrate-ecs-apps",
       "https://github.com/GlueOps/vault-init-controller"
     ]
   },
@@ -572,7 +572,8 @@
       "https://github.com/GlueOps/pull-request-bot",
       "https://github.com/GlueOps/vault-init-controller",
       "https://github.com/GlueOps/metacontroller-operator-waf-web-acl",
-      "https://github.com/GlueOps/metacontroller-operator-waf"
+      "https://github.com/GlueOps/metacontroller-operator-waf",
+      "https://github.com/GlueOps/migrate-ecs-apps"
     ]
   },
   {
@@ -610,6 +611,20 @@
     "owner": "venkatamutyala",
     "dependencies": [
       "https://github.com/GlueOps/pull-request-bot"
+    ]
+  },
+  {
+    "repo": "https://github.com/pallets/jinja",
+    "owner": "fernandoataoldotcom",
+    "dependencies": [
+      "https://github.com/GlueOps/migrate-ecs-apps"
+    ]
+  },
+  {
+    "repo": "https://github.com/pygments/pygments",
+    "owner": "fernandoataoldotcom",
+    "dependencies": [
+      "https://github.com/GlueOps/migrate-ecs-apps"
     ]
   },
   {
