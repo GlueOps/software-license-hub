@@ -560,7 +560,6 @@
     "repo": "https://github.com/boto/boto3",
     "owner": "venkatamutyala",
     "dependencies": [
-      "https://github.com/GlueOps/terraform-cloud-backup",
       "https://github.com/GlueOps/vault-init-controller"
     ]
   },
