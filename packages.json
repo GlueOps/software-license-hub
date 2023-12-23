@@ -441,6 +441,7 @@
   {
     "repo": "https://github.com/yaml/pyyaml",
     "owner": "fernandoataoldotcom",
+    "notes":["mm-evd"],
     "dependencies": [
       "https://github.com/GlueOps/metacontroller-operator-loki-rule-group"
     ]
@@ -655,5 +656,40 @@
     "dependencies": [
       "https://github.com/GlueOps/platform-kustomize-pomerium"
     ]
+  },
+  {
+    "repo": "https://github.com/Snowflake-Labs/terraform-provider-snowflake",
+    "owner": "fernandoataoldotcom",
+    "notes": ["mm-a"]
+  },
+  {
+    "repo": "https://github.com/dbt-labs/dbt-core",
+    "owner": "fernandoataoldotcom",
+    "notes": ["mm-a"]
+  },
+  {
+    "repo": "https://github.com/dbt-labs/dbt-core",
+    "owner": "fernandoataoldotcom",
+    "notes": ["mm-a"]
+  },
+  {
+    "repo": "https://github.com/psf/requests",
+    "owner": "fernandoataoldotcom",
+    "notes": ["mm-ldfs", "mm-lccr", "mm-evd"]
+  },
+  {
+    "repo": "https://github.com/RaRe-Technologies/smart_open",
+    "owner": "fernandoataoldotcom",
+    "notes": ["mm-evd"]
+  },
+  {
+    "repo": "https://github.com/snowflakedb/snowflake-connector-python",
+    "owner": "fernandoataoldotcom",
+    "notes": ["mm-ldfs"]
+  },
+  {
+    "repo": "https://github.com/GlueOps/python-glueops-helpers-library",
+    "owner": "fernandoataoldotcom",
+    "notes": ["mm-ldfs", "mm-cdfr", "mm-evd"]
   }
 ]
