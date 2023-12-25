@@ -589,7 +589,9 @@
     "owner": "fernandoataoldotcom",
     "dependencies": [
       "https://github.com/GlueOps/web-app-simulate-workload",
-      "https://github.com/GlueOps/qr-code-generator"
+      "https://github.com/GlueOps/qr-code-generator",
+      "https://github.com/GlueOps/metacontroller-operator-waf",
+      "https://github.com/GlueOps/metacontroller-operator-waf-web-acl"
     ]
   },
   {
