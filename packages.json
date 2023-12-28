@@ -82,7 +82,8 @@
     "repo": "https://github.com/seperman/deepdiff",
     "owner": "venkatamutyala",
     "dependencies": [
-      "https://github.com/GlueOps/metacontroller-operator-waf"
+      "https://github.com/GlueOps/metacontroller-operator-waf",
+      "https://github.com/GlueOps/metacontroller-operator-waf-web-acl"
     ]
   },
   {
