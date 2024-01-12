@@ -694,5 +694,27 @@
     "repo": "https://github.com/GlueOps/python-glueops-helpers-library",
     "owner": "fernandoataoldotcom",
     "notes": ["mm-ldfs", "mm-cdfr", "mm-evd"]
+  },
+  {
+    "repo": "https://github.com/redis/redis",
+    "owner": "venkatamutyala",
+    "notes": ["when a new redis release is dropped there should be an updated image in dockerhub. Leave argocd alone but update the glueops-operators redis instance"]
+    "dependencies": [
+      "https://github.com/GlueOps/platform-helm-chart-platform"
+    ]
+  },
+  {
+    "repo": "https://pypi.org/project/pyrate-limiter",
+    "owner": "venkatamutyala",
+    "dependencies": [
+      "https://github.com/GlueOps/metacontroller-operator-waf"
+    ]
+  },
+  {
+    "repo": "https://github.com/redis/redis-py",
+    "owner": "venkatamutyala",
+    "dependencies": [
+      "https://github.com/GlueOps/metacontroller-operator-waf"
+    ]
   }
 ]
