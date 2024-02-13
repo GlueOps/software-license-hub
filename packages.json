@@ -13,7 +13,6 @@
     "dependencies": [
       "https://github.com/GlueOps/alertmanager",
       "https://github.com/GlueOps/github-workflows",
-      "https://github.com/GlueOps/pull-request-bot",
       "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster",
       "https://github.com/GlueOps/github-actions-build-push-containers",
       "https://github.com/GlueOps/github-actions-cleanup-redundant-cd-prs"
@@ -133,7 +132,8 @@
     "repo": "https://github.com/helm/helm",
     "owner": "fernandoataoldotcom",
     "dependencies": [
-      "https://github.com/GlueOps/codespaces"
+      "https://github.com/GlueOps/codespaces",
+      "https://github.com/GlueOps/github-workflows"
     ]
   },
   {
@@ -193,6 +193,7 @@
     "repo": "https://github.com/cli/cli",
     "owner": "fernandoataoldotcom",
     "dependencies": [
+      "https://github.com/GlueOps/backup-tools",
       "https://github.com/GlueOps/github-actions-cleanup-redundant-cd-prs"
     ]
   },
@@ -698,7 +699,7 @@
   {
     "repo": "https://github.com/redis/redis",
     "owner": "venkatamutyala",
-    "notes": ["when a new redis release is dropped there should be an updated image in dockerhub. Leave argocd alone but update the glueops-operators redis instance"]
+    "notes": ["when a new redis release is dropped there should be an updated image in dockerhub. Leave argocd alone but update the glueops-operators redis instance"],
     "dependencies": [
       "https://github.com/GlueOps/platform-helm-chart-platform"
     ]
