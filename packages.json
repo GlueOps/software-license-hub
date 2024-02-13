@@ -132,7 +132,8 @@
     "repo": "https://github.com/helm/helm",
     "owner": "fernandoataoldotcom",
     "dependencies": [
-      "https://github.com/GlueOps/codespaces"
+      "https://github.com/GlueOps/codespaces",
+      "https://github.com/GlueOps/github-workflows"
     ]
   },
   {
