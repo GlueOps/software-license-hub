@@ -697,7 +697,7 @@
   {
     "repo": "https://github.com/redis/redis",
     "owner": "venkatamutyala",
-    "notes": ["when a new redis release is dropped there should be an updated image in dockerhub. Leave argocd alone but update the glueops-operators redis instance"]
+    "notes": ["when a new redis release is dropped there should be an updated image in dockerhub. Leave argocd alone but update the glueops-operators redis instance"],
     "dependencies": [
       "https://github.com/GlueOps/platform-helm-chart-platform"
     ]
