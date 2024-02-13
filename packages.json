@@ -13,7 +13,6 @@
     "dependencies": [
       "https://github.com/GlueOps/alertmanager",
       "https://github.com/GlueOps/github-workflows",
-      "https://github.com/GlueOps/pull-request-bot",
       "https://github.com/GlueOps/terraform-module-cloud-aws-kubernetes-cluster",
       "https://github.com/GlueOps/github-actions-build-push-containers",
       "https://github.com/GlueOps/github-actions-cleanup-redundant-cd-prs"
