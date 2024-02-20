@@ -672,11 +672,6 @@
     "notes": ["mm-a"]
   },
   {
-    "repo": "https://github.com/dbt-labs/dbt-core",
-    "owner": "fernandoataoldotcom",
-    "notes": ["mm-a"]
-  },
-  {
     "repo": "https://github.com/psf/requests",
     "owner": "fernandoataoldotcom",
     "notes": ["mm-ldfs", "mm-lccr", "mm-evd"]
